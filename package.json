@@ -1,4 +1,5 @@
 {
+  "homepage": "https://asosa117.github.io/pillardashboard",
   "name": "newpillardash",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
     "bootstrap": "^4.6.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
