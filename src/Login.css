@@ -1,0 +1,45 @@
+.loginBlock{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    width:500px;
+    margin-top: 5%;
+    margin-left:33%;
+    border-radius: 10%;
+    background-color:lightgrey
+}
+
+.login{
+    margin-left: 40%;
+    margin-bottom: 10% ;
+}
+
+.username{
+    height: 40px;
+    width: 40ch;
+    max-width: 100%; 
+    margin-left: 6%;
+    margin-bottom: 5%;
+    font-size: large; 
+}
+
+input[type=password]{
+    height: 40px;
+    width: 40ch;
+    max-width: 100%;
+    margin-left: 6%;
+    font-size: large;
+}
+
+.loginButton{
+    margin-left: 6%;
+    margin-top: 10%;
+    font-size: 200%;
+    width: 88%;
+}
+
+.errorLabel{
+    color: red;
+    margin-top: 1%;
+    margin-left: 20%;
+}
