@@ -63,11 +63,11 @@ function MedList() {
             </div>
             <table className='tableHeaderWhole'>
                 <tr id = "MTableHead"className='medTableHeader'>
-                    <th className='medHeadE'>Email</th>
+                    <th className='medHeadU'>Username</th>
                     <th className='medHeadMN'>Medication Name</th>
-                    <th className='medHeadDA'>Dosage Amount</th>
-                    <th className='medHeadPD'>Pill Dosage</th>
-                    <th className='medHeadPC'>Pill Count</th>
+                    <th className='medHeadDA'>First Day</th>
+                    <th className='medHeadPD'>Latest Day</th>
+                    <th className='medHeadPC'>Days Per Week</th>
                     <th>Adherence</th>
                 </tr>
             </table>
