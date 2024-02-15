@@ -67,8 +67,8 @@ function MedList() {
                     <th className='medHeadMN'>Medication Name</th>
                     <th className='medHeadDA'>First Day</th>
                     <th className='medHeadPD'>Latest Day</th>
-                    <th className='medHeadPC'>Days Per Week</th>
-                    <th>Adherence</th>
+                    <th className='medHeadPC'>Taken per week (days)</th>
+                    <th>Adherence(%)</th>
                 </tr>
             </table>
             <section className='tableWhole'>

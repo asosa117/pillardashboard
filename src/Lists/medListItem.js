@@ -1,8 +1,8 @@
 function MedListItem(props) {
     const { user } = props
 
-    //MAKE ADHERENCE PERCENTAGE
-    //CHANGE MEDS PER WEEK TITLE
+    //
+
     const  meds  = user.medications
     return (
         <body>
@@ -17,7 +17,7 @@ function MedListItem(props) {
                             + meds.when_to_take[0].wednesday + meds.when_to_take[0].thursday +
                             meds.when_to_take[0].friday + meds.when_to_take[0].saturday +
                             meds.when_to_take[0].sunday)} </td>
-                        <td>{meds.when_to_take[0].adherence} </td> 
+                        <td>{String(Math.trunc((meds.when_to_take[0].adherence/(Math.trunc((new Date() - meds.when_to_take[0].taken_dates[0].taken_date.toDate())/8.64e+7)))*100))}%</td> 
                     </tr>
                 </table>
                 ))}

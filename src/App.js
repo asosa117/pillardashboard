@@ -7,18 +7,15 @@ import {
 import UserTable from "./Components/UserTable";
 import MedTable from "./Components/MedTable";
 import Login from "./Components/Login";
- 
+import pLogo from "./pLogo.png";
+import pwLogo from "./pwLogo.png";
  
 function App() {
     return (
         <>
             <header>
-                <h1 className='title'>Pillar</h1>
-                {/* <h2 className="tes">
-                    <button>Documents</button>
-                    <button>Help</button>
-                    <button>Log Out</button>
-                </h2> */}
+                <img src={pLogo} alt="pLogo" className="pLogo"/>
+                <img src={pwLogo} alt="pLogo" className="pwLogo"/>
             </header>
             
             <Router>

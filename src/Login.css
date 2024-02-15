@@ -1,22 +1,25 @@
 .loginBlock{
     display: flex;
     flex-direction: column;
-    height:500px;
+    height:400px;
     width:500px;
     margin-top: 5%;
     margin-left:33%;
     border-radius: 10%;
-    background-color:lightgrey
+    background-color: #D5C9BD;
+    color: white;
+    box-shadow: .2px .2px 6px 1px #4E4D50;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .login{
     margin-left: 40%;
-    margin-bottom: 10% ;
+    margin-bottom: 10%;
 }
 
 .username{
     height: 40px;
-    width: 40ch;
+    width: 43ch;
     max-width: 100%; 
     margin-left: 6%;
     margin-bottom: 5%;
@@ -25,7 +28,7 @@
 
 input[type=password]{
     height: 40px;
-    width: 40ch;
+    width: 43ch;
     max-width: 100%;
     margin-left: 6%;
     font-size: large;
@@ -36,10 +39,13 @@ input[type=password]{
     margin-top: 10%;
     font-size: 200%;
     width: 88%;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 30px;
+
 }
 
 .errorLabel{
     color: red;
     margin-top: 1%;
-    margin-left: 20%;
+    margin-left: 8%;
 }

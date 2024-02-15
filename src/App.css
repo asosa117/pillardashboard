@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: #252525;
+    background-color: #788475;
     margin: 0%;
 }
 
@@ -11,8 +11,20 @@ header{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: #4E4D50;
-    height: 45px;
+    background-color: white;
+    height: 70px;
+}
+
+.pLogo{
+    padding-left: 10px;
+    height: 60px;
+    width: 60px;
+    padding-right: 10px;
+}
+
+.pwLogo{
+    height: 40px;
+    width: 110px;
 }
 
 .title{
@@ -34,7 +46,7 @@ header button{
 } 
 
 h1 button{
-    background-color: #252525;
+    background-color: #788475;
     appearance: none;
     border:none;
     cursor: pointer;
@@ -133,6 +145,7 @@ h1 button:hover{
     width: 100%;
     height: 80px;
     table-layout: fixed;
+    background-color: #4E4D50;
 }
 
 
@@ -146,6 +159,7 @@ h1 button:hover{
     height: 80px;
     width: 100%;
     table-layout: fixed;
+    background-color: #4E4D50;
 }
 
 #MTableHead th{
@@ -178,6 +192,6 @@ h1 button:hover{
     padding-right: 140px;
 }
 .medHeadPC{
-    padding-right: 115px;
+    padding-right: 40px;
 }
 
