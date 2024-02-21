@@ -13,7 +13,7 @@ function MedList() {
     const [search, setSearch] = useState("")
 
     const searchAll = async (e) => {
-        const sUsername = query(collection(db, "users"), where ("username", "==", search));
+        const sUsername = query(collection(db, "users"), where("username", "==", search));
         const doc_refs = await getDocs(sUsername);
 
         const sea = []
@@ -26,7 +26,6 @@ function MedList() {
         })
 
 
-        console.log(sea)
         return sea
     }
 
