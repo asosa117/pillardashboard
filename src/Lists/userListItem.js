@@ -5,8 +5,8 @@ function UserListItem(props) {
         <body>
             <table id = "UTable" className="userTable">
                     <tr key = {user.id}> 
-                        <td>{user.email}</td>
-                        <td>{user.username} </td>
+                        <td>Participant@gmail.com</td>
+                        <td>Participant</td>
                     </tr>
             </table>
         </body>
